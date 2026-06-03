@@ -1,0 +1,6 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "kit",
+  "homepage": "https://github.com/pkrinesh/kit",
+  "include": ["kit/components/registry.json"]
+}
