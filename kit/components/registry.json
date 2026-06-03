@@ -2,7 +2,7 @@
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "items": [
     {
-      "name": "components",
+      "name": "show",
       "type": "registry:component",
       "files": [
         {
