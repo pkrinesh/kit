@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "items": [
+    {
+      "name": "show",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "show.tsx",
+          "type": "registry:component",
+          "target": "@components/show.tsx"
+        }
+      ]
+    },
+    {
+      "name": "apple-tabs",
+      "type": "registry:component",
+      "dependencies": ["@radix-ui/react-tabs", "lucide-react"],
+      "registryDependencies": ["utils"],
+      "files": [
+        {
+          "path": "apple-tabs.tsx",
+          "type": "registry:component",
+          "target": "@components/apple-tabs.tsx"
+        }
+      ]
+    }
+  ]
+}
