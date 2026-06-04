@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "items": [
+    {
+      "name": "use-chart-legend",
+      "type": "registry:hook",
+      "registryDependencies": ["chart", "utils"],
+      "files": [
+        {
+          "path": "use-chart-legend.tsx",
+          "type": "registry:hook",
+          "target": "@hooks/use-chart-legend.tsx"
+        }
+      ]
+    }
+  ]
+}
