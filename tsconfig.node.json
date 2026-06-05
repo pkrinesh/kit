@@ -6,14 +6,15 @@
     "module": "esnext",
     "types": ["node"],
     "skipLibCheck": true,
-
+    "paths": {
+      "@/*": ["./src/*"]
+    },
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
     "moduleDetection": "force",
     "noEmit": true,
-
     /* Linting */
     "noUnusedLocals": true,
     "noUnusedParameters": true,

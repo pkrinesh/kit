@@ -1,9 +1,14 @@
 import { defineConfig } from "vite-plus";
-import react, { reactCompilerPreset } from "@vitejs/plugin-react";
 import babel from "@rolldown/plugin-babel";
+import react, { reactCompilerPreset } from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  resolve: {
+    tsconfigPaths: true,
+  },
+  plugins: [react(), babel({ presets: [reactCompilerPreset()] }), tailwindcss()],
   staged: {
     "*": "vp check --fix",
   },
@@ -130,5 +135,4 @@ export default defineConfig({
       "vite-plus/prefer-vite-plus-imports": "error",
     },
   },
-  plugins: [react(), babel({ presets: [reactCompilerPreset()] })],
 });
