@@ -29,7 +29,7 @@
       "name": "date-picker",
       "type": "registry:component",
       "dependencies": ["react-aria-components", "lucide-react"],
-      "registryDependencies": ["utils", "popover", "./ui/calender.tsx", "./ui/date-field.tsx"],
+      "registryDependencies": ["utils", "popover"],
       "files": [
         {
           "path": "date-picker.tsx",
