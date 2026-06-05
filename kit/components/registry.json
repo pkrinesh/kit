@@ -24,6 +24,32 @@
           "target": "@components/apple-tabs.tsx"
         }
       ]
+    },
+    {
+      "name": "date-picker",
+      "type": "registry:component",
+      "dependencies": ["react-aria-components", "lucide-react"],
+      "registryDependencies": ["utils", "popover", "./ui/calender", "./ui/date-field"],
+      "files": [
+        {
+          "path": "date-picker.tsx",
+          "type": "registry:component",
+          "target": "@components/date-picker.tsx"
+        }
+      ]
+    },
+    {
+      "name": "date-range-picker",
+      "type": "registry:component",
+      "dependencies": ["react-aria-components", "lucide-react"],
+      "registryDependencies": ["utils", "popover", "./ui/calender", "./ui/date-field"],
+      "files": [
+        {
+          "path": "date-range-picker.tsx",
+          "type": "registry:component",
+          "target": "@components/date-range-picker.tsx"
+        }
+      ]
     }
   ]
 }

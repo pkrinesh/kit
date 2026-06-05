@@ -12,6 +12,32 @@
           "target": "@components/ui/spacer.tsx"
         }
       ]
+    },
+    {
+      "name": "calender",
+      "type": "registry:ui",
+      "dependencies": ["react-aria-components", "lucide-react", "@internationalized/date"],
+      "registryDependencies": ["utils", "button"],
+      "files": [
+        {
+          "path": "calender.tsx",
+          "type": "registry:ui",
+          "target": "@components/ui/calender.tsx"
+        }
+      ]
+    },
+    {
+      "name": "date-field",
+      "type": "registry:ui",
+      "dependencies": ["react-aria-components"],
+      "registryDependencies": ["utils"],
+      "files": [
+        {
+          "path": "date-field.tsx",
+          "type": "registry:ui",
+          "target": "@components/ui/date-field.tsx"
+        }
+      ]
     }
   ]
 }
