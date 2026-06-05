@@ -13,6 +13,18 @@
       ]
     },
     {
+      "name": "prefetch-link",
+      "type": "registry:component",
+      "dependencies": ["@tanstack/react-query", "react-router"],
+      "files": [
+        {
+          "path": "prefetch-link.tsx",
+          "type": "registry:component",
+          "target": "@components/prefetch-link.tsx"
+        }
+      ]
+    },
+    {
       "name": "apple-tabs",
       "type": "registry:component",
       "dependencies": ["@radix-ui/react-tabs", "lucide-react"],
