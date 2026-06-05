@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "items": [
+    {
+      "name": "spacer",
+      "type": "registry:ui",
+      "registryDependencies": ["utils"],
+      "files": [
+        {
+          "path": "spacer.tsx",
+          "type": "registry:ui",
+          "target": "@components/ui/spacer.tsx"
+        }
+      ]
+    }
+  ]
+}
