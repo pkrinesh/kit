@@ -3,8 +3,8 @@
   "name": "kit",
   "homepage": "https://github.com/pkrinesh/kit",
   "include": [
-    "kit/components/_registry.json",
-    "kit/components/ui/_registry.json",
-    "kit/hooks/_registry.json"
+    "kit/components/registry.json",
+    "kit/components/ui/registry.json",
+    "kit/hooks/registry.json"
   ]
 }
