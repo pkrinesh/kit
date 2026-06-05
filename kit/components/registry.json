@@ -29,7 +29,7 @@
       "name": "date-picker",
       "type": "registry:component",
       "dependencies": ["react-aria-components", "lucide-react"],
-      "registryDependencies": ["utils", "popover", "./ui/calender", "./ui/date-field"],
+      "registryDependencies": ["utils", "popover", "./ui/calender.tsx", "./ui/date-field.tsx"],
       "files": [
         {
           "path": "date-picker.tsx",
@@ -42,7 +42,7 @@
       "name": "date-range-picker",
       "type": "registry:component",
       "dependencies": ["react-aria-components", "lucide-react"],
-      "registryDependencies": ["utils", "popover", "./ui/calender", "./ui/date-field"],
+      "registryDependencies": ["utils", "popover", "./ui/calender.tsx", "./ui/date-field.tsx"],
       "files": [
         {
           "path": "date-range-picker.tsx",
